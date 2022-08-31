@@ -1,0 +1,24 @@
+[debug] > Exec(;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/tmp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/home/anzor.gurchumelia/.local/share/JetBrains/IdeaIC2022.2/Scala/repo/org/jetbrains/scala/sbt-structure-extractor_2.12_1.0/2021.3.0/sbt-structure-extractor-2021.3.0.jar" org.jetbrains.sbt.CreateTasks;preferScala2;*/*:dumpStructure, Some(d2c7c40d-3375-4151-b93a-7271d7dbf313), Some(CommandSource(console0)))
+[debug] > Exec(set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/tmp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers"), None, Some(CommandSource(console0)))
+[info] Defining Global / sbtStructureOptions, Global / sbtStructureOutputFile and 1 others.
+[info] The new values will be used by cleanKeepGlobs
+[info] 	Run `last` for details.
+[debug] Defining 
+[debug] 	Global / sbtStructureOptions
+[debug] 	Global / sbtStructureOutputFile
+[debug] 	history
+[debug] 	shellPrompt
+[debug] 
+[debug] The new values will be used by 
+[debug] 	cleanKeepGlobs
+[info] Reapplying settings...
+[info] set current project to scala-with-mongodb (in build file:/home/anzor.gurchumelia/Desktop/scala-with-mongodb/)
+[debug] > Exec(apply -cp "/home/anzor.gurchumelia/.local/share/JetBrains/IdeaIC2022.2/Scala/repo/org/jetbrains/scala/sbt-structure-extractor_2.12_1.0/2021.3.0/sbt-structure-extractor-2021.3.0.jar" org.jetbrains.sbt.CreateTasks, None, Some(CommandSource(console0)))
+[info] Applying State transformations org.jetbrains.sbt.CreateTasks from /home/anzor.gurchumelia/.local/share/JetBrains/IdeaIC2022.2/Scala/repo/org/jetbrains/scala/sbt-structure-extractor_2.12_1.0/2021.3.0/sbt-structure-extractor-2021.3.0.jar
+[info] Reapplying settings...
+[info] set current project to scala-with-mongodb (in build file:/home/anzor.gurchumelia/Desktop/scala-with-mongodb/)
+[debug] > Exec(preferScala2, None, Some(CommandSource(console0)))
+[debug] > Exec(*/*:dumpStructure, None, Some(CommandSource(console0)))
+[debug] Evaluating tasks: Global / dumpStructure
+[warn] sbt 0.13 shell syntax is deprecated; use slash syntax instead: Global / dumpStructure
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
